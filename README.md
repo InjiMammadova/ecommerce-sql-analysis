@@ -2,7 +2,6 @@
 
 ## Project Overview
 This project analyzes an e-commerce dataset using SQL to understand customer behavior, revenue patterns, churn, and overall business performance.
-
 The analysis focuses on identifying key business drivers and uncovering potential performance issues.
 
 ---
@@ -28,8 +27,8 @@ The analysis focuses on identifying key business drivers and uncovering potentia
 - Transaction volume is high, but repeat purchase frequency is low
 - Average order value remains stable across the dataset
 
-Insight: Growth depends more on increasing customer engagement than expanding sales volume.  
-Action: Focus on retention strategies such as loyalty programs and personalized offers.
+**Insight**: Growth depends more on increasing customer engagement than expanding sales volume.  
+**Action**: Focus on retention strategies such as loyalty programs and personalized offers.
 
 ---
 
@@ -38,7 +37,7 @@ Action: Focus on retention strategies such as loyalty programs and personalized 
 - High spenders are not always frequent buyers
 - Customer value distribution is weakly differentiated
 
-Insight: Different strategies are required for high-value and frequent customers.
+**Insight**: Different strategies are required for high-value and frequent customers.
 
 ---
 
@@ -54,8 +53,8 @@ Insight: Different strategies are required for high-value and frequent customers
 - Average of around 4 returned items per order
 - Return behavior is consistent across all categories
 
-Insight: Indicates a systemic issue, likely related to product quality or fulfillment.  
-Action: Improve product quality control and optimize return policies.
+**Insight**: Indicates a systemic issue, likely related to product quality or fulfillment.  
+**Action**: Improve product quality control and optimize return policies.
 
 ---
 
@@ -64,7 +63,7 @@ Action: Improve product quality control and optimize return policies.
 - Average customer age is approximately 43
 - Customers aged 45+ generate the highest revenue
 
-Insight: The core customer base is middle-aged.
+**Insight**: The core customer base is middle-aged.
 
 ---
 
@@ -73,8 +72,8 @@ Insight: The core customer base is middle-aged.
 - Churn is consistent across categories and payment methods
 - Churned and active customers show similar spending behavior
 
-Insight: Churn is not driven by product or payment differences.  
-Action: Implement retention campaigns targeting at-risk customers.
+**Insight**: Churn is not driven by product or payment differences.  
+**Action**: Implement retention campaigns targeting at-risk customers.
 
 ---
 
@@ -82,7 +81,7 @@ Action: Implement retention campaigns targeting at-risk customers.
 - Non-churn customers generate the majority of revenue
 - Churned customers still contribute a significant portion (approximately 136M)
 
-Insight: Customer churn leads to direct revenue loss, making retention critical.
+**Insight**: Customer churn leads to direct revenue loss, making retention critical.
 
 ---
 
@@ -91,8 +90,8 @@ Insight: Customer churn leads to direct revenue loss, making retention critical.
 - A significant decline is observed in 2023 (approximately -30%)
 - No strong seasonal patterns are detected
 
-Insight: The decline in 2023 suggests a structural business issue.  
-Action: Investigate operational or market changes that may have caused the revenue drop.
+**Insight**: The decline in 2023 suggests a structural business issue.  
+**Action**: Investigate operational or market changes that may have caused the revenue drop.
 
 ---
 
@@ -101,29 +100,27 @@ Action: Investigate operational or market changes that may have caused the reven
 - Very few customers qualify as high-value
 - Low frequency and high recency indicate weak customer engagement
 
-Insight: Customer loyalty is low, and reactivation strategies are required.
+**Insight**: Customer loyalty is low, and reactivation strategies are required.
 
 ---
 
 ## Final Conclusion
 Despite having a large customer base, the analysis reveals several critical issues:
 
-- Low customer engagement and purchase frequency  
-- A consistently high churn rate (~20%)  
-- Weak customer loyalty, with most users in the low-value segment  
-- Extremely high return rates, indicating potential operational or product issues  
+- Low customer engagement and purchase frequency
+- A consistently high churn rate (~20%)
+- Weak customer loyalty, with most users in the low-value segment
+- Extremely high return rates, indicating potential operational or product issues
 
-These factors have directly contributed to the significant revenue decline observed in 2023.
-From a business perspective, the main challenge is not customer acquisition, but customer retention and engagement.
+These factors directly contributed to the significant revenue decline observed in 2023.
+
+From a business perspective, the main challenge is customer retention and engagement rather than customer acquisition.
 
 To address this, the business should prioritize:
-- Retention strategies (loyalty programs, personalized offers)
-- Root cause analysis of high return rates (product quality, logistics)
-- Reactivation campaigns targeting inactive customers
+- Retention strategies such as loyalty programs and personalized offers
+- Root cause analysis of high return rates
+- Reactivation campaigns for inactive customers
 - Continuous monitoring of churn and customer lifetime value
-
-Improving these areas is essential to stabilize revenue and ensure sustainable growth.
-The core business problem is customer retention and engagement rather than customer acquisition.
 
 ---
 ## Tools Used
